@@ -2,7 +2,7 @@
 
 ### Toolchain Creation Steps
 
-1. npm init -y
+1. npm init -y | if using this template => 'npm install' and skip ahead to step 8
 2. npm i -D typescript
 3. npx tsc --init to create 'tsconfig.json' in root dir with minimum config settings below
 
