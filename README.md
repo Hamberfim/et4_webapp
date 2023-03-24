@@ -59,5 +59,16 @@ module.exports = {
 ```
 
 12. run 'npx webpack serve'
-13. stop webpack serv and run 'npm i bootstrap' & then
+13. stop webpack serve and run 'npm i bootstrap' & then
 14. npm i -D css-loader style-loader
+15. add to the webpack.config.js resolve & rules array
+
+```
+...
+resolve: { extensions: [".ts", ".tsx", ".js", ".css"] },
+...
+rules: [...
+{ test: /\.css$/, use: ["style-loader", "css-loader"] },
+]
+
+```
