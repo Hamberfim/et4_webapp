@@ -59,3 +59,5 @@ module.exports = {
 ```
 
 12. run 'npx webpack serve'
+13. stop webpack serv and run 'npm i bootstrap' & then
+14. npm i -D css-loader style-loader
