@@ -1,4 +1,5 @@
 ## A Stand-Alone Typescript Web App
+![Alt](https://github.com/Hamberfim/et4_webapp/blob/main/Screen.jpg)
 
 ### Toolchain Creation Steps
 
